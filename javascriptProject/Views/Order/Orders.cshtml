@@ -1,0 +1,44 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+<div class="row">
+    <div class="col-7 offset-3">
+        <div class="card">
+            <div class="card-header">
+                <h1 class="card-title">place order</h1>
+
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-5">
+                        <div class="form-group">
+                            <label>Select Menu</label>
+                            <select id="ddlMenu" class="form-control">
+                                <option value="-1">Select</option>
+                            </select>
+                            <span id="lblPrice"></span>
+                        </div>
+                    </div>
+                    <div class="col-5">
+                        <div class="form-group">
+                            <label>Enter Quantity</label>
+                            <input type="number" id="txtQuantity" class="form-control" value="0" />
+                        </div>
+                    </div>
+                    <div class="col-2">
+                    <div class="form-group">
+                       <button class="btn btn-success mt-4" id="btnAdd">Add item</button>
+                    </div>
+                </div>
+                </div>
+                <div class="row">
+                    <div class="col-12" id="divOrder">
+                        <p> card is empty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/js/Order.js"></script>

@@ -1,0 +1,35 @@
+﻿/*span{
+    float: right;
+    margin-right: 10px;
+    color : blue;
+    background-color: cyan;
+    padding : 4px;
+    border-radius: 2px;
+}*/
+ol li{
+    background-color: antiquewhite;
+    padding: 4px;
+    display:block;
+    margin-top:10px;
+}
+#lblPrice {
+    float: right;
+    margin-right: 10px;
+    color: blue;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+span.mandatory {
+    color: red;
+    font-weight: 700;
+}
+.error-control {
+    font-size: 11px;
+    color: red;
+}
+
+    .error-control input,error-control select , error-control textarea {
+        border-color: red;
+    }
+
